@@ -1,0 +1,30 @@
+body{
+
+    background-color:rgb(245, 218, 223);
+    background-repeat:repeat-x;
+    background-repeat:scroll;
+}
+h1{
+    font-size:100px;
+    border:hidden;
+    margin-left:800px;
+    margin-top:0;
+    border-color:pink ;
+    color:rgb(184, 102, 116);
+    letter-spacing:2px;
+}
+p{
+    border:solid;
+    border-color: rgb(133, 88, 95);
+    margin-left:30px ;
+  color:rgb(151, 6, 6);
+  border-style:double;
+border-width:9px;
+}
+img{
+    border:solid;
+    margin-left:800px;
+border-color: rgb(228, 129, 145);
+border-style:double;
+border-width:9px;
+}
