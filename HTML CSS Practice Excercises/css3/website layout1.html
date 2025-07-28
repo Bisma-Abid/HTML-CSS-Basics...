@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Website Layout</title>
+   <style>
+      body{
+         font-family: Arial;
+         background:slategray;
+         margin: 0px;
+         padding: 0px;
+      }
+      .wrapper{
+         border: 1px solid Black;
+         width:1000px;
+         background:white;
+         margin: 0 auto;
+      }
+      #header{
+         background: crimson;
+         height:75px;
+         padding-top: 30px;
+         color: white;
+         text-shadow: 5px 5px 15px black;
+         padding: 15px;
+      }
+      #menu ul{
+         margin: 0px;
+         padding: 0px;
+      }
+      #menu{
+         background: lightsalmon;
+      }
+      #menu li{
+            display: inline-block;
+            
+      }
+      #menu li a{
+         display: block;
+         padding: 10px 10px;
+         text-decoration: none;
+         color:black;
+      }
+      #menu li a:hover{
+         background: crimson;
+         color:white
+      }
+      #content{
+         width:800px;
+         min-height:400px;
+         float:left;
+         box-sizing:border-box;
+         padding:15px;
+         background-color: aliceblue;
+      }
+      #sidebar{
+         background: lightblue;
+         float:right;
+         width:200px;
+         min-height: 400px;
+
+      }
+      #sidebar a{
+         text-decoration: none;
+         color:black;
+         line-height: 30px;
+         text-shadow: 5px 5px 10px white;
+      }
+      #sidebar li a:hover{
+         background-color: rgb(9, 54, 110);
+         color: white
+      }
+      #footer{
+         background: crimson;
+         clear: both;
+         text-align: right;
+         padding-right: 30px;
+      
+   </style>
+ </head>
+ <body>
+   <div class="wrapper">
+      <div id="header">
+         <h1>Royal 13 Dashboard</h1>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Career</a></li>
+         </ul>
+      </div>
+      <div id="content">
+         <h2>About Royal 13</h2>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab nisi iure rerum unde reiciendis cupiditate sequi deleniti aliquid sapiente. Modi fugit ipsum minima porro saepe totam blanditiis voluptatem omnis optio!,Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptates velit eius ab nesciunt numquam explicabo magnam. Illum ullam perspiciatis, provident aliquam delectus possimus non corporis harum voluptatum quo repellat!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, et. Delectus debitis ipsa veniam, sequi eaque omnis, fuga enim mollitia odio sit modi et nesciunt ullam asperiores maxime sint reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet asperiores unde quaerat quis quibusdam excepturi. Magni rerum alias doloribus voluptatem, tempora reprehenderit ratione illo quam, optio ex nemo exercitationem?
+         </p>
+      </div>
+      <div id="sidebar">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Career</a></li>
+         </ul>
+      </div>
+      <div id="footer">
+         royal13 official 2017
+      </div>
+   </div>
+ </body>
+ </html>

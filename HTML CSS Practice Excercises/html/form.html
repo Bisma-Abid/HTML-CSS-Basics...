@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+ </head>
+ <body>
+    <form action="">
+      <fieldset>
+      <legend>Enter Personal Data</legend>
+        <label> Name </label> <input type="text" Name="" placeholder="Write name here"><br><br>
+
+        <label> Password </label><input type="Password" placeholder="Enter Password"><br><br>
+
+        <label> Gender </label>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="Female"><label for="Female">Female</label><br><br>
+
+        <label> Hobbies </label>
+        <input type="checkbox" name="hobbies" id="Music"><label for="Music">Music</label>
+        <input type="checkbox" name="Hobbies" id="Book Reading"><label for="Book Reading">Book Reading</label>
+        <input type="checkbox" name="Hobbies" id="Video Games"><label for="Video Games">Video Games</label>
+        <input type="checkbox" name="Hobbies" id="Cricket"><label for="Cricket">Cricket</label><br><br>
+
+        <label> Message </label><textarea rows="10" cols="60"></textarea><br><br>
+
+        <label>Country</label>
+        <select>
+         <option>CHINA</option>
+         <option>INDIA</option>
+         <option selected>PAKISTAN</option>
+         <option>DUBAI</option>
+        </select>
+
+        <Label>City</Label>
+        <select>
+         <optgroup label="PAKISTAN">
+            <option>Lahore</option>
+            <option>Karachi</option>
+            <option>Islamabad</option>
+         </optgroup>
+         <optgroup label="INDIA">
+            <option>Mumbai</option>
+            <option>Patna</option>
+            <option>Kolkata</option>
+         </optgroup>
+            <optgroup label="CHINA">
+               <option>Baijing</option>
+               <option>Shanghai</option>
+               <option>Turter</option>
+            </optgroup>
+            <optgroup label="DUBAI">
+               <option>Abu Dabi</option>
+               <option>Sharjah</option>
+               <option>Amjan</option>
+            </optgroup>
+        </select><br><br>
+
+        <label> Upload File </label><input type="file" Name="" accept="image/*"/><br><br>
+
+        <input type="submit" value="Save"/>
+
+        <input type="button" value="Click"/>
+
+        <input type="Reset" value="Reset"/>
+      </fieldset>
+
+        </form>
+      
+ </body>
+ </html>

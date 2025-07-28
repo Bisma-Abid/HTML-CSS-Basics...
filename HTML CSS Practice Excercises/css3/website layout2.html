@@ -1,0 +1,122 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>website layout 2</title>
+   <style>
+      body{
+         background-color: rgb(99, 99, 96);
+         margin: 0px;
+         padding:0px;
+         background: gray;
+      }
+      #allinall{
+         border: 1px solid black;
+         width: 1000px;
+         margin:auto;
+      }
+      #header{
+         background-color: gold;
+         padding:5px 0px 5px 50px;
+         text-shadow: 2px 2px 3px white;
+
+      }
+      #menu{
+         background-color: rgb(134, 128, 82);  
+      }
+      #menu ul{
+         margin: 0px;
+         padding: 0px;
+      }
+      #menu li{
+         display: inline-block;}
+      #menu a{
+         text-decoration: none;
+         display: block;
+         color: black;
+         font-weight: bold;
+         font-size: large;
+         font-family: Arial, Helvetica, sans-serif;
+         padding: 20px 20px;
+         }
+         #menu a:hover{
+            background-color: gold;
+            color: black;
+         }
+      #content{
+         background-color: white;
+         width: 800px;
+         min-height: 500px;
+         float: right;
+         padding-left: 15px;
+         box-sizing: border-box;
+         font-size: larger;
+         line-height: 30px;
+      }
+      #sidebar{
+         background-color: black;
+         width: 200px;
+         min-height: 500px;
+         float: left;
+         font-weight: bold;
+         text-decoration: none;
+      }
+      #sidebar ul{
+         padding-left: 50px;
+         color: white;
+      }
+      #sidebar a{
+         color:white;
+         padding: 20px 20px;
+         line-height: 50px;
+      }
+      #sidebar a:hover{
+         background: gold;
+         color: black;
+      }
+      #footer{
+         background-color: gold;
+         clear: both;
+         text-align: end;
+      }
+   </style>
+ </head>
+ <body>
+   <div id="allinall">
+      <div id="header">
+         <h1>Binance</h1>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Menu</a></li>
+      </ul>
+      </div>
+      <div id="content">
+         <h2>Binance Project</h2>
+         <p>Binance Holdings Ltd., branded Binance, is a global company that operates the largest cryptocurrency exchange in terms of daily trading volume of cryptocurrencies. Binance was founded in 2017 by Changpeng Zhao, a developer who had previously created high-frequency trading software. Binance was initially based in China, then moved to Japan shortly before the Chinese government restricted cryptocurrency companies. Binance subsequently left Japan for Malta and currently has no official company headquarters.
+
+            In 2021, Binance was put under investigation by both the United States Department of Justice and Internal Revenue Service on allegations of money laundering and tax offenses.The UK's Financial Conduct Authority ordered Binance to stop all regulated activity in the United Kingdom in June 2021. That same year, Binance shared client data, including names and addresses, with the Russian government.
+            
+            On November 21, 2023, Binance pleaded guilty to federal charges, admitting that it engaged in money laundering, unlicensed money transmitting, and sanctions violations; and has agreed to pay over $4 billion in fines.
+         </p>
+      </div>
+      <div id="sidebar">
+         <ul>
+         <li><a href="">Home</a></li>
+            <li><a href="">Contact Us </a></li>
+            <li><a href="">About Us </a></li>
+            <li><a href="">Career </a></li>
+            <li><a href="">Menu </a></li>
+      </ul>
+      </div>
+      <div id="footer">
+         Binance.co.uk (2017)
+      </div>
+   </div>
+ </body>
+ </html>
